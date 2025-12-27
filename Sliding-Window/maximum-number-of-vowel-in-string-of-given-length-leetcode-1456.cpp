@@ -4,6 +4,7 @@
 class Solution 
 {
 public:
+    //function for checking character vowel 
     bool isVowel(char c)
     {
         if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
