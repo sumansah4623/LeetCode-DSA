@@ -1,20 +1,20 @@
 //Approach 1 : iterative approach
 //time complexity : O(n)
 //space complexity : O(1)
-// class Solution 
-// {
-//   public:
-//     int findSum(int n) 
-//     {
-//         int sum = 0;
-//         for(int i = 1; i<=n; i++)
-//         {
-//             sum = sum + i;
-//         }
+class Solution 
+{
+  public:
+    int findSum(int n) 
+    {
+        int sum = 0;
+        for(int i = 1; i<=n; i++)
+        {
+            sum = sum + i;
+        }
         
-//         return sum;
-//     }
-// };
+        return sum;
+    }
+};
 
 
 
